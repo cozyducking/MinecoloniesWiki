@@ -2,19 +2,26 @@
 title: Minecolonies Wiki
 layout: default
 ---
-# Claim system
+# How to expand your colony's borders
 
 ---
+#### What a Claim is:
 
-Colonies have an area of claimed chunks around them. Upon colony creation a colony claims chunks(16x16 block areas) in a square around it, the radius is set with the config setting *initialColonySize*. 
+Colonies have an area of claimed chunks around them, you can see your colony's claimed area by holding the builders tools - the white 
+borders you see are the current claimed area of your colony. This designates the area where you can build your buildings. 
 
+A chunk is a 256 block tall 16×16 segment of a Minecraft world. (https://minecraft.gamepedia.com/Chunk)
+Upon colony creation a colony claims chunks (16x16 block areas) in a square around it, the radius is set with the config setting *initialColonySize*. 
 Those claims normally are protected from modification through other players, see Systems#Protection.
+ 
+Buildings claim a square area around them after beeing built, expanding to all sides from the chunk the hutblock is located in. How much they claim depends on the building. They do not claim over the max range, set with the config setting *maxColonySize*.
 
-Extending your claim area can be done with buildings. Buildings do claim a square area around them after beeing built, expanding to all sides from the chunk the hutblock is located in. How much they claim depends on the building. They do not claim over the max range, set with the config setting *maxColonySize*.
-
-Removing a building does remove the chunks it claimed, the colonies initial claim radius is excluded.
+Removing a building does remove the chunks it claimed, the colonies initial claim radius is excluded, so after putting down your townhall and claiming an area you can move the town hall building and build it somewhere else in the claimed area. 
 
 #### Building Claim Areas:
+
+Guard towers are currently the best building for expanding your borders as they claim the most chunks per building level.
+By placing guard towers close to your colony's border (seen as white squares by holding your building tool) you will see it expand upon that building being finished. It does not have to have a worker in it, only the completion of the building is required for it to claim the area around it. 
 
 **TownHall:**
 
